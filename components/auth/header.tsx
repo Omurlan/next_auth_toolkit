@@ -6,11 +6,11 @@ const font = Poppins({
   weight: ["600"],
 });
 
-interface CardHeaderProps {
+interface HeaderProps {
   label: string;
 }
 
-export const CardHeader = ({ label }: CardHeaderProps) => {
+export const Header = ({ label }: HeaderProps) => {
   return (
     <div
       className="w-full flex flex-col gap-y-4
